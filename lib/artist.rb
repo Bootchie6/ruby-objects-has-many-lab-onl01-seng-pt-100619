@@ -5,6 +5,10 @@ class Artist
     @name = name
   end
   
+  def songs
+    
+  end
+  
   def add_song(song)
     Song.artist = self
   end
